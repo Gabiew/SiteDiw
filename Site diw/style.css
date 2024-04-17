@@ -1,0 +1,80 @@
+/*Estilo Geral*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(226, 251, 250);
+    height: 100vh;
+}
+
+.barra{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display:flex;
+}
+
+/* Estilo cabç */
+header{
+    padding: 10px 4%;
+}
+
+header>.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style-type:none ;
+}
+
+header nav ul li{
+    display:inline-block ;
+    padding: 0px 40px;
+}
+
+.btn{
+    justify-content: space-between;
+    display: inline-block;
+}
+
+/* Topo do site */
+section{
+    padding: 40px 40px;
+    justify-content: center;
+    align-self: center;
+    gap:90px;
+}
+
+section.topo.flex{
+    align-items: center;
+    justify-content: center;
+}
+
+div.txt-topo-site h1{
+    color: rgb(0, 0, 0);
+}
+
+img.Omg{
+    height: 350px;
+    border-radius: 50%;
+    justify-content: space-between;
+}
+
+div.imgtoposite{
+    justify-content: right;
+    padding: px;
+}
